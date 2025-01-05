@@ -40,8 +40,6 @@
         <p>Our College Management System is designed to simplify administrative tasks, making life easier for both students and faculty. From admission processing to fee management, everything is automated for optimal performance.</p>
         <div class="intro-images">
             <img src="(https://www.tsdcmumbai.in/images/campus/college_building.jpg).png" alt="Campus Image" />
-            <img src="(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY9mjjfeFlj1oDmnyrK2-hkXjZEKC56pkwSJvSY_4CPun926CuquR96lkEsKbI5zyOCsk&usqp=CAU).png" alt="Student Group" />
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbliwhpRQ_84-tcaR1Onb04jxqBAvxZiX0BQ&s.png" alt="college logo" />
         </div>
     </section>
 
@@ -50,7 +48,7 @@
         <h2>Our Core Features</h2>
         <div class="service-cards">
             <div class="service-card">
-               alt="Admission Process" />
+               <alt="Admission Process" />
                <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -101,9 +99,7 @@
 
             <button type="submit">Submit</button>
         </form>
-    </div>
-
-    <script>
+  <script>
         function toggleForm() {
             var form = document.getElementById('admissionForm');
             if (form.style.display === 'none' || form.style.display === '') {
@@ -115,8 +111,7 @@
     </script>
                 <h3>Streamlined Admissions</h3>
                 <p>Automated application processing to save time and reduce errors. Upload documents, track application status, and receive instant updates.</p>
-            </div>
-            <div class="service-card">
+         <div class="service-card">
                <h3>Fee Management</h3>
                 <p>Effortlessly track and manage tuition payments, with instant fee receipts and payment history available in your account.</p>
             </div>
@@ -186,11 +181,11 @@
             <form id="paymentForm">
                 <label for="name">Full Name:</label><br>
                 <input type="text" id="name" name="name" required><br><br>
-
-                <label for="email">Email Address:</label><br>
+                
+            <label for="email">Email Address:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
-
-                <label for="amount">Payment Amount:</label><br>
+                
+        <label for="amount">Payment Amount:</label><br>
                 <input type="number" id="amount" name="amount" required><br><br>
 
                 <button type="button" onclick="processPayment()">Pay Now</button>
@@ -200,10 +195,15 @@
         <div class="receipt" id="receipt">
             <h3>Payment Receipt</h3>
             <p><strong>Student Name:</strong> <span id="receiptName"></span></p>
+            <br>
             <p><strong>Email:</strong> <span id="receiptEmail"></span></p>
+            <br>
             <p><strong>Amount Paid:</strong> ₹<span id="receiptAmount"></span></p>
+            <br>
             <p><strong>Payment Status:</strong> Success</p>
+            <br>
             <p><strong>Transaction ID:</strong> <span id="transactionId"></span></p>
+            <br>
         </div>
 
         <div class="history">
@@ -262,6 +262,7 @@
             <div class="service-card">
                 <h3>Scholarship Opportunities</h3>
                 <p>Apply for scholarships online and get real-time updates on your application status, eligibility, and award details.</p>
+                 <button onclick="toggleQueryForm()">
                 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -380,7 +381,6 @@
             }
         }
     </script>
-            </div>
             <div class="service-card">
                 <h3>Digital Wallet</h3>
                 <p>Use your virtual wallet to pay fines, late fees, and other college expenses with ease, all in one place.</p>
@@ -526,11 +526,7 @@
             }
         }
     </script>
-            </div>
-        </div>
-    </section>
-
-    <!-- Call to Action Section -->
+             <!-- Call to Action Section -->
     <section id="cta">
     <html lang="en">
 <head>
@@ -590,8 +586,6 @@
         <h2>Get Started Today</h2>
         <p>Join the College and experience seamless college administration. Apply now or reach out to us for more details.</p>
         <a href="#apply" class="action-btn">Apply Now</a>
-    </section>
-
     <!-- Footer Section -->
     <footer id="contact">
         <p>&copy; 2025 College Management Hub. All Rights Reserved.</p>
