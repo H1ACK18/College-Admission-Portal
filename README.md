@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Management System</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
-<body>
 
+<body>
     <!-- Header Section -->
     <header>
-        <h1>College Management System</h1>
+        <div class="logo">
+            <h1>College Management Hub</h1>
+            <p>Your Partner in Streamlining College Operations</p>
+        </div>
         <nav>
             <ul>
-                <li><a href="#admission">Admissions</a></li>
-                <li><a href="#fees">Fee Management</a></li>
-                <li><a href="#transparency">Transparency</a></li>
-                <li><a href="#governance">Governance Activities</a></li>
-                <li><a href="#wallet">Payment Wallet</a></li>
-                <li><a href="#services">Student Services</a></li>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#apply">Apply Now</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content Section -->
-    <main>
-        <!-- Admission Process Section -->
-        <section id="admission">
-            <h2>Admission Process</h2>
-            <p>Our system streamlines the entire admission process to reduce delays and ensure security in document handling.</p>
-            <img src="![image](https://github.com/user-attachments/assets/243203c0-9368-4789-91a8-61c5f87489ea)
-.jpg" alt="Admission Process Image">
-            <p>Automated application processing and secure document verification enhance efficiency and reduce manual errors.</p>
-        </section>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Welcome to the Future of College Management</h2>
+            <p>Efficient, Transparent, and Automated Solutions for Students and Staff</p>
+            <a href="#services" class="action-btn">Discover Our Services</a>
+        </div>
+    </section>
 
-        <!-- Fee Management Section -->
-        <section id="fees">
-            <h2>Fee Receipt Management</h2>
-            <p>Automated fee receipt generation and payment tracking for a seamless experience.</p>
-            <img src="![image](https://github.com/user-attachments/assets/6dc746d3-8e14-40a8-a7c6-b84ed65e790a)
-.jpg" alt="Fee Management Image">
-            <p>Track your payments and generate receipts with ease, eliminating discrepancies in financial records.</p>
-        </section>
+    <!-- Introduction Section -->
+    <section id="intro">
+        <h2>About the System</h2>
+        <p>Our College Management System is designed to simplify administrative tasks, making life easier for both students and faculty. From admission processing to fee management, everything is automated for optimal performance.</p>
+        <div class="intro-images">
+            <img src="college-campus.jpg" alt="Campus Image" />
+            <img src="students-group.jpg" alt="Student Group" />
+        </div>
+    </section>
 
-        <!-- Transparency Section -->
-        <section id="transparency">
-            <h2>Transparency</h2>
-            <p>Clear visibility into fee structure, admission progress, and student performance.</p>
-            <img src="images/transparency.jpg" alt="Transparency Image">
-            <p>Get real-time updates on your admission status, fee payments, and academic progress.</p>
-        </section>
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Core Features</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img src="admission-icon.png" alt="Admission Process" />
+                <h3>Streamlined Admissions</h3>
+                <p>Automated application processing to save time and reduce errors. Upload documents, track application status, and receive instant updates.</p>
+            </div>
+            <div class="service-card">
+                <img src="payment-icon.png" alt="Payments" />
+                <h3>Fee Management</h3>
+                <p>Effortlessly track and manage tuition payments, with instant fee receipts and payment history available in your account.</p>
+            </div>
+            <div class="service-card">
+                <img src="scholarship-icon.png" alt="Scholarships" />
+                <h3>Scholarship Opportunities</h3>
+                <p>Apply for scholarships online and get real-time updates on your application status, eligibility, and award details.</p>
+            </div>
+            <div class="service-card">
+                <img src="wallet-icon.png" alt="Digital Wallet" />
+                <h3>Digital Wallet</h3>
+                <p>Use your virtual wallet to pay fines, late fees, and other college expenses with ease, all in one place.</p>
+            </div>
+        </div>
+    </section>
 
-        <!-- Governance Activities Section -->
-        <section id="governance">
-            <h2>Governance Activities</h2>
-            <p>Manage scholarships, monitor student performance, and track academic results.</p>
-            <img src="![image](https://github.com/user-attachments/assets/7c201da3-23dc-4410-9ef9-d7ae5b38d867)
-.jpg" alt="Governance Activities Image">
-            <p>Access scholarship details and track your academic progress with easy-to-use tools.</p>
-        </section>
-
-        <!-- Payment Wallet Section -->
-        <section id="wallet">
-            <h2>Payment Wallet</h2>
-            <p>Efficiently manage your payments for various college activities with a digital wallet.</p>
-            <img src="![image](https://github.com/user-attachments/assets/c519dbac-87ba-4b60-b15f-c9941ed2ec71)
-.jpg" alt="Payment Wallet Image">
-            <p>Pay for fines, late fees, and other college activities easily and securely through your personal wallet.</p>
-        </section>
-
-        <!-- Student Services Section -->
-        <section id="services">
-            <h2>Student Services</h2>
-            <p>Get support for any queries or issues you may have during your academic journey.</p>
-            <img src="![image](https://github.com/user-attachments/assets/a9aacd4d-5335-4607-85a3-458448e6d681)
-.jpg" alt="Student Services Image">
-            <p>Reach out for assistance or explore various services catered to students' needs.</p>
-        </section>
-    </main>
+    <!-- Call to Action Section -->
+    <section id="cta">
+        <h2>Get Started Today</h2>
+        <p>Join the College Management Hub and experience seamless college administration. Apply now or reach out to us for more details.</p>
+        <a href="#apply" class="action-btn">Apply Now</a>
+    </section>
 
     <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 College Management System. All Rights Reserved.</p>
+    <footer id="contact">
+        <p>&copy; 2025 College Management Hub. All Rights Reserved.</p>
+        <p>For inquiries, contact us at <a href="mailto:info@collegehub.com">info@collegehub.com</a></p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
+
 </html>
