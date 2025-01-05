@@ -25,6 +25,7 @@
     </header>
     <img src="https://www.tsdcmumbai.in/images/campus/college_building.jpg" alt="My Local Image" width="300">
     <img src="https://content.jdmagicbox.com/v2/comp/mumbai/u3/022pxx22.xx22.200724122123.d1u3/catalogue/thakur-institute-of-hotel-management-mumbai-0kytxjzrig.jpg" alt="My Local Image" width="300">
+    <img src="(https://www.tsdcmumbai.in/images/infrastructure/cc2.jpg).jpg" alt="My Local Image" width="300">
 
   <!-- Hero Section -->
     <section id="hero">
@@ -77,45 +78,7 @@
         }
     </style>
 </head>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Background</title>
-    <style>
-        /* General body styling with background color */
-        body {
-            background-color: #e6f7ff; /* Soft blue shade */
-            margin: 0; /* Removes default margins for full-page effect */
-            font-family: 'Verdana', sans-serif; /* Sets a clean font style */
-        }
 
-        /* Section with a background image */
-        .background-section {
-            background-image: url('https://via.placeholder.com/1920x1080'); /* Replace with your image URL */
-            background-size: cover; /* Stretch image to cover the container */
-            background-repeat: no-repeat; /* Avoid repeating the background */
-            background-position: center; /* Center the image */
-            height: 100vh; /* Full height of the viewport */
-            display: flex; /* Allows centering content */
-            justify-content: center; /* Centers content horizontally */
-            align-items: center; /* Centers content vertically */
-            color: #fff; /* White text for visibility */
-            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Adds shadow to text for contrast */
-        }
-
-        /* Heading styling inside the background section */
-        .background-section h1 {
-            font-size: 3rem; /* Large, readable text */
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <!-- Section with a custom background image -->
-    <div class="background-section">
-        <h1>Explore the Possibilities</h1>
-    </div>
 <body>
 
     <button onclick="toggleForm()">Apply for Admission</button>
