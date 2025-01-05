@@ -25,7 +25,7 @@
     </header>
     <img src="https://www.tsdcmumbai.in/images/campus/college_building.jpg" alt="My Local Image" width="300">
     <img src="https://content.jdmagicbox.com/v2/comp/mumbai/u3/022pxx22.xx22.200724122123.d1u3/catalogue/thakur-institute-of-hotel-management-mumbai-0kytxjzrig.jpg" alt="My Local Image" width="300">
-    <img src="(https://www.tsdcmumbai.in/images/infrastructure/cc2.jpg).jpg" alt="My Local Image" width="300">
+    <img src="https://www.tsdcmumbai.in/images/infrastructure/cc2.jpg" alt="My Local Image" width="300">
 
   <!-- Hero Section -->
     <section id="hero">
