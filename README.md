@@ -39,8 +39,8 @@
         <h2>About the System</h2>
         <p>Our College Management System is designed to simplify administrative tasks, making life easier for both students and faculty. From admission processing to fee management, everything is automated for optimal performance.</p>
         <div class="intro-images">
-            <img src="college-campus.jpg" alt="Campus Image" />
-            <img src="students-group.jpg" alt="Student Group" />
+            <img src="[college-campus.jpg](https://thakureducation.org/images/updated_logo/TCSC.png)" alt="Campus Image" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwWDh0Y72atIEvlRqxHmcUu2mk7CvTPsf2MA&s.png" alt="Student Group" />
         </div>
     </section>
 
