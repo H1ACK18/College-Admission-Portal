@@ -38,9 +38,7 @@
         <h2>About the System</h2>
         <p>Our College Management System is designed to simplify administrative tasks, making life easier for both students and faculty. From admission processing to fee management, everything is automated for optimal performance.</p>
         <div class="intro-images">
-    </section>
-
-    <!-- Services Section -->
+   <!-- Services Section -->
     <section id="services">
         <h2>Our Core Features</h2>
         <div class="service-cards">
