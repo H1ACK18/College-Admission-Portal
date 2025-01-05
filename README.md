@@ -1,112 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Management Portal</title>
+    <title>College Management System</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
-
 <body>
+
+    <!-- Header Section -->
     <header>
-        <h1>College Management Portal</h1>
+        <h1>College Management System</h1>
         <nav>
             <ul>
-                <li><a href="#admissions">Admission</a></li>
-                <li><a href="#fees">Fee Payment</a></li>
-                <li><a href="#scholarships">Scholarships</a></li>
-                <li><a href="#wallet">Wallet</a></li>
+                <li><a href="#admission">Admissions</a></li>
+                <li><a href="#fees">Fee Management</a></li>
+                <li><a href="#transparency">Transparency</a></li>
+                <li><a href="#governance">Governance Activities</a></li>
+                <li><a href="#wallet">Payment Wallet</a></li>
                 <li><a href="#services">Student Services</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Main Content Section -->
     <main>
-        <!-- Admission Section -->
-        <section id="admissions">
-            <h2>Admission Application</h2>
-            <form id="admission-form">
-                <label for="student-name">Full Name:</label>
-                <input type="text" id="student-name" name="student-name" required>
-
-                <label for="student-email">Email Address:</label>
-                <input type="email" id="student-email" name="student-email" required>
-
-                <label for="documents-upload">Upload Documents:</label>
-                <input type="file" id="documents-upload" name="documents-upload" multiple required>
-
-                <button type="submit" class="submit-btn">Submit Application</button>
-            </form>
+        <!-- Admission Process Section -->
+        <section id="admission">
+            <h2>Admission Process</h2>
+            <p>Our system streamlines the entire admission process to reduce delays and ensure security in document handling.</p>
+            <img src="![image](https://github.com/user-attachments/assets/243203c0-9368-4789-91a8-61c5f87489ea)
+.jpg" alt="Admission Process Image">
+            <p>Automated application processing and secure document verification enhance efficiency and reduce manual errors.</p>
         </section>
 
-        <!-- Fee Payment Section -->
+        <!-- Fee Management Section -->
         <section id="fees">
-            <h2>Pay Fees</h2>
-            <form id="fee-form">
-                <label for="student-id">Student ID:</label>
-                <input type="text" id="student-id" name="student-id" required>
-
-                <label for="fee-amount">Amount:</label>
-                <input type="number" id="fee-amount" name="fee-amount" required>
-
-                <button type="submit" class="submit-btn">Generate Receipt</button>
-            </form>
-            <div id="fee-receipt-section">
-                <h3>Your Payment Receipt</h3>
-                <p id="fee-receipt"></p>
-            </div>
+            <h2>Fee Receipt Management</h2>
+            <p>Automated fee receipt generation and payment tracking for a seamless experience.</p>
+            <img src="![image](https://github.com/user-attachments/assets/6dc746d3-8e14-40a8-a7c6-b84ed65e790a)
+.jpg" alt="Fee Management Image">
+            <p>Track your payments and generate receipts with ease, eliminating discrepancies in financial records.</p>
         </section>
 
-        <!-- Scholarships Section -->
-        <section id="scholarships">
-            <h2>Apply for Scholarships</h2>
-            <p>Choose from available scholarships and submit your application.</p>
-            <form id="scholarship-form">
-                <label for="scholarship-id">Scholarship ID:</label>
-                <input type="text" id="scholarship-id" name="scholarship-id" required>
-                <button type="submit" class="submit-btn">Apply Now</button>
-            </form>
+        <!-- Transparency Section -->
+        <section id="transparency">
+            <h2>Transparency</h2>
+            <p>Clear visibility into fee structure, admission progress, and student performance.</p>
+            <img src="images/transparency.jpg" alt="Transparency Image">
+            <p>Get real-time updates on your admission status, fee payments, and academic progress.</p>
+        </section>
+
+        <!-- Governance Activities Section -->
+        <section id="governance">
+            <h2>Governance Activities</h2>
+            <p>Manage scholarships, monitor student performance, and track academic results.</p>
+            <img src="![image](https://github.com/user-attachments/assets/7c201da3-23dc-4410-9ef9-d7ae5b38d867)
+.jpg" alt="Governance Activities Image">
+            <p>Access scholarship details and track your academic progress with easy-to-use tools.</p>
         </section>
 
         <!-- Payment Wallet Section -->
         <section id="wallet">
-            <h2>Manage Wallet</h2>
-            <form id="wallet-form">
-                <label for="wallet-id">Wallet ID:</label>
-                <input type="text" id="wallet-id" name="wallet-id" required>
-
-                <label for="payment-amount">Amount:</label>
-                <input type="number" id="payment-amount" name="payment-amount" required>
-
-                <label for="payment-reason">Payment Reason:</label>
-                <select id="payment-reason" name="payment-reason">
-                    <option value="fine">Fine Payment</option>
-                    <option value="late-fee">Late Fee</option>
-                    <option value="journals">Journals Payment</option>
-                    <option value="form">Form Fees</option>
-                </select>
-
-                <button type="submit" class="submit-btn">Proceed with Payment</button>
-            </form>
+            <h2>Payment Wallet</h2>
+            <p>Efficiently manage your payments for various college activities with a digital wallet.</p>
+            <img src="![image](https://github.com/user-attachments/assets/c519dbac-87ba-4b60-b15f-c9941ed2ec71)
+.jpg" alt="Payment Wallet Image">
+            <p>Pay for fines, late fees, and other college activities easily and securely through your personal wallet.</p>
         </section>
 
         <!-- Student Services Section -->
         <section id="services">
-            <h2>Student Assistance</h2>
-            <p>Need assistance? Submit your queries here.</p>
-            <form id="query-form">
-                <label for="query">Your Query:</label>
-                <textarea id="query" name="query" required></textarea>
-                <button type="submit" class="submit-btn">Submit Query</button>
-            </form>
+            <h2>Student Services</h2>
+            <p>Get support for any queries or issues you may have during your academic journey.</p>
+            <img src="![image](https://github.com/user-attachments/assets/a9aacd4d-5335-4607-85a3-458448e6d681)
+.jpg" alt="Student Services Image">
+            <p>Reach out for assistance or explore various services catered to students' needs.</p>
         </section>
     </main>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 College Management Portal. All Rights Reserved.</p>
+        <p>&copy; 2025 College Management System. All Rights Reserved.</p>
     </footer>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>
