@@ -12,8 +12,8 @@
     <!-- Header Section -->
     <header>
         <div class="logo">
-            <h1>College Management Hub</h1>
-            <p>Your Partner in Streamlining College Operations</p>
+            <h1>College Admission Hub</h1>
+            <p>Education Technology Trends and Innovation</p>
         </div>
         <nav>
             <ul>
@@ -28,7 +28,7 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero-text">
-            <h2>Welcome to the Future of College Management</h2>
+            <h2>Welcome to the Future of College </h2>
             <p>Efficient, Transparent, and Automated Solutions for Students and Staff</p>
             <a href="#services" class="action-btn">Discover Our Services</a>
         </div>
