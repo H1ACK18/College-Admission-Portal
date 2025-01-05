@@ -1,15 +1,41 @@
-// script.js
+// Admission Form Submission Simulation
 document.getElementById('admission-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    alert('Application submitted successfully!');
+    alert('Your admission application has been submitted successfully!');
 });
 
-document.getElementById('fee-payment-form').addEventListener('submit', function (e) {
+// Fee Payment - Generate Receipt
+document.getElementById('fee-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    alert('Fee payment processed!');
+    const studentId = document.getElementById('student-id').value;
+    const amount = document.getElementById('fee-amount').value;
+
+    const receipt = `
+        Fee Receipt for Student ID: ${studentId}
+        Amount Paid: ₹${amount}
+        Date of Payment: ${new Date().toLocaleDateString()}
+    `;
+    document.getElementById('fee-receipt').textContent = receipt;
 });
 
-document.getElementById('wallet-transaction-form').addEventListener('submit', function (e) {
+// Scholarship Application Simulation
+document.getElementById('scholarship-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    alert('Wallet transaction completed!');
+    alert('Your scholarship application has been submitted!');
+});
+
+// Wallet Payment Simulation
+document.getElementById('wallet-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const walletId = document.getElementById('wallet-id').value;
+    const amount = document.getElementById('payment-amount').value;
+    const reason = document.getElementById('payment-reason').value;
+
+    alert(`You have successfully paid ₹${amount} for ${reason} via Wallet ID: ${walletId}`);
+});
+
+// Student Query Submission Simulation
+document.getElementById('query-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    alert('Your query has been submitted to student services!');
 });
