@@ -1,4 +1,3 @@
-# College-Management-System-2025
 <!DOCTYPE html>
 <html lang="en">
 
