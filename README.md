@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
-
 <body>
     <!-- Header Section -->
     <header>
@@ -39,8 +38,6 @@
         <h2>About the System</h2>
         <p>Our College Management System is designed to simplify administrative tasks, making life easier for both students and faculty. From admission processing to fee management, everything is automated for optimal performance.</p>
         <div class="intro-images">
-            <img src="(https://www.tsdcmumbai.in/images/campus/college_building.jpg).png" alt="Campus Image" />
-        </div>
     </section>
 
     <!-- Services Section -->
@@ -48,8 +45,7 @@
         <h2>Our Core Features</h2>
         <div class="service-cards">
             <div class="service-card">
-               <alt="Admission Process" />
-               <html lang="en">
+             <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
