@@ -62,7 +62,6 @@
             document.getElementById('admissionForm').reset(); // Reset form after submission
         });
     </script>
-</body>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -138,7 +137,6 @@
             });
         });
     </script>
-</body>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -246,7 +244,6 @@
             document.getElementById('status-message').classList.remove('hidden');
         });
     </script>
-</body>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
