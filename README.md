@@ -3,129 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Automated Admission Application</title>
+    <title>University Student Portal</title>
     <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f0f8ff, #ffe4e1);
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
         }
+
         header {
             text-align: center;
-            background-color: #4CAF50;
-            color: white;
             padding: 20px;
+            background-color: #4caf50;
+            color: white;
         }
+
         .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-            border-radius: 10px;
         }
-        form label {
-            font-weight: bold;
+
+        .images-section {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
         }
-        form input, form select, form button {
-            display: block;
-            width: 100%;
-            margin-bottom: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+
+        .images-section img {
+            width: 30%;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        form button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-        form button:hover {
-            background-color: #45a049;
-        }
+
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #4CAF50;
+            background-color: #333;
             color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            position: relative;
         }
-        .image-row {
+
+        footer .social-icons {
             display: flex;
             justify-content: center;
-            gap: 10px;
-            margin: 20px 0;
+            margin: 10px 0;
         }
-        .image-row img {
-            max-width: 30%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        footer .social-icons a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        footer .social-icons a:hover {
+            color: #4caf50;
         }
     </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>University Admission Application</h1>
-        <p>Welcome to the automated admission portal. Apply now for your future!</p>
+        <h1>Welcome to the University Portal</h1>
+        <p>Your one-stop solution for admissions, payments, and student management.</p>
     </header>
 
-    <div class="image-row">
-        <img src="https://via.placeholder.com/300x200" alt="University Building">
-        <img src="https://via.placeholder.com/300x200" alt="Graduation Ceremony">
-        <img src="https://via.placeholder.com/300x200" alt="Student Life">
+    <!-- Images Section -->
+    <div class="images-section">
+        <img src="https://via.placeholder.com/400x200?text=Admission+Process" alt="Admission Process">
+        <img src="https://via.placeholder.com/400x200?text=University+Life" alt="University Life">
+        <img src="https://via.placeholder.com/400x200?text=Student+Success" alt="Student Success">
     </div>
 
     <div class="container">
-        <form id="admissionForm">
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="course">Course Applying For:</label>
-            <select id="course" name="course" required>
-                <option value="computer-science">Computer Science</option>
-                <option value="business-administration">Business Administration</option>
-                <option value="medicine">Medicine</option>
-                <option value="law">Law</option>
-            </select>
-
-            <label for="documents">Upload Documents (PDF, JPG, PNG):</label>
-            <input type="file" id="documents" name="documents" accept=".pdf,.jpg,.png" required>
-
-            <button type="submit">Submit Application</button>
-        </form>
-
-        <div id="statusMessage" class="hidden">
-            <h2>Application Status</h2>
-            <p>Your application has been <strong>submitted successfully</strong>.</p>
-            <p>Status: <span id="status">Pending</span></p>
-        </div>
+        <!-- Add your existing content here -->
+        <h2>About the Portal</h2>
+        <p>Manage admissions, fee payments, scholarships, and student activities all in one place.</p>
     </div>
 
     <footer>
-            <img src="facebook-icon.png" alt="Facebook">
-            <img src="instagram-icon.png" alt="Instagram">
-            <img src="twitter-icon.png" alt="Twitter">
-            <img src="whatsapp-icon.png" alt="WhatsApp">
-        <p>&copy; 2025 University Admission Portal</p>
+        <p>&copy; 2025 University Portal. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://whatsapp.com" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+        </div>
     </footer>
-
-    <script>
-        document.getElementById('admissionForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            document.getElementById('statusMessage').classList.remove('hidden');
-            document.getElementById('status').textContent = "Pending";
-            alert("Your application has been submitted! You will receive a response soon.");
-            document.getElementById('admissionForm').reset();
-        });
-    </script>
 </body>
 </html>
