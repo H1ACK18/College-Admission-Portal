@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <link rel="stylesheet" href="style1.css" type="text/css" media="all" />
 <script src=".js" type="text/javascript" charset="utf-8"></script>
 <html lang="en">
@@ -15,8 +14,6 @@
     </header>
     <!-- Images Section -->
     <div class="images-section">
-        <img src="https://mum.digitaluniversity.ac/user/pages/images/slides/slide1.jpg" alt="Admission Process">
-        <img src="https://www.vancopayments.com/hubfs/Graduation%20-%20Cap%20throw.png" alt="University Life">
         <img src="https://www.met.edu/uploadfile/images/AboutMET.jpg" alt="Student Success">
     </div>
 
@@ -47,8 +44,6 @@
             <p>Your application has been <strong>submitted successfully</strong>.</p>
             <p>Status: <span id="status">Pending</span></p>
         </div>
-    </div>
-
     <footer>
         <p>&copy; 2025 University Admission Portal</p>
     </footer>
@@ -188,27 +183,27 @@
                 <tbody>
                     <tr>
                         <td>Computer Science</td>
-                        <td>$10,000</td>
-                        <td>$500</td>
-                        <td>$10,500</td>
+                        <td>₹1,00,000</td>
+                        <td>₹50,000</td>
+                        <td>₹1,00,500</td>
                     </tr>
                     <tr>
                         <td>Business Administration</td>
-                        <td>$9,000</td>
-                        <td>$500</td>
-                        <td>$9,500</td>
+                        <td>₹9,00,000</td>
+                        <td>₹50,00</td>
+                        <td>₹9,00,500</td>
                     </tr>
                     <tr>
                         <td>Medicine</td>
-                        <td>$15,000</td>
-                        <td>$500</td>
-                        <td>$15,500</td>
+                        <td>₹15,00,000</td>
+                        <td>₹50,000</td>
+                        <td>$₹15,00,500</td>
                     </tr>
                     <tr>
                         <td>Law</td>
-                        <td>$8,000</td>
-                        <td>$500</td>
-                        <td>$8,500</td>
+                        <td>₹8,00,000</td>
+                        <td>₹50,000</td>
+                        <td>₹8,00,500</td>
                     </tr>
                 </tbody>
             </table>
@@ -300,7 +295,7 @@
             <h2>Payment Wallet</h2>
             <p>Manage your payments for activities like fines, late fees, journals, and ATKT forms.</p>
             <div class="wallet-info">
-                <p><strong>Available Balance:</strong> $<span id="wallet-balance">50.00</span></p>
+                <p><strong>Available Balance:</strong> ₹<span id="wallet-balance">50.00</span></p>
                 <button class="action-btn" onclick="addFunds()">Add Funds</button>
             </div>
             <h3>Transactions</h3>
@@ -315,21 +310,21 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>2025-01-06</td>
+                        <td>2025-01-10</td>
                         <td>Fine</td>
-                        <td>$10.00</td>
+                        <td>₹1000.00</td>
                         <td>Paid</td>
                     </tr>
                     <tr>
                         <td>2025-01-06</td>
                         <td>Late Fee</td>
-                        <td>$5.00</td>
+                        <td>₹5.00</td>
                         <td>Paid</td>
                     </tr>
                     <tr>
                         <td>2025-01-07</td>
                         <td>ATKT Form</td>
-                        <td>$15.00</td>
+                        <td>₹1500.00</td>
                         <td>Pending</td>
                     </tr>
                 </tbody>
@@ -341,16 +336,16 @@
         <p>&copy; 2025 University Student Management Portal. All Rights Reserved.</p>
     </footer>
     <div class="social-icons">
-            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://whatsapp.com" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://image.similarpng.com/thumbnail/2021/10/Twitter-icon-design-on-transparent-background-PNG.png" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://i.pinimg.com/736x/70/28/a4/7028a4e1988d4e9b8f7f4dbb4fb603db.jpg" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://png.pngtree.com/element_our/sm/20180626/sm_5b321c99945a2.png" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://e7.pngegg.com/pngimages/213/828/png-clipart-facebook-logo-facebook-messenger-logo-social-media-icon-facebook-icon-blue-text.png" title="Facebook"><i class="fab fa-facebook"></i></a>
         </div>
     <script>
         // Function to add funds to the wallet (simulated)
         function addFunds() {
             let currentBalance = parseFloat(document.getElementById('wallet-balance').innerText);
-            let newBalance = currentBalance + 20; // Simulate adding $20
+            let newBalance = currentBalance + 20; // Simulate adding ₹200
             document.getElementById('wallet-balance').innerText = newBalance.toFixed(2);
             alert('Funds added successfully!');
         }
