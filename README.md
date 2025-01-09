@@ -3,158 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Admission Portal</title>
+    <title>Automated Admission Application</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #6a11cb, #2575fc);
-            color: white;
+            background-color: #f9f9f9;
         }
         header {
             text-align: center;
+            background-color: #4CAF50;
+            color: white;
             padding: 20px;
-            background-color: #4a90e2;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        header img {
-            width: 100px;
-            display: block;
-            margin: 0 auto 10px;
         }
         .container {
-            padding: 20px;
             max-width: 800px;
             margin: auto;
             background: white;
-            color: black;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        form label {
+            font-weight: bold;
+        }
+        form input, form select, form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #45a049;
         }
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #4a90e2;
+            background-color: #4CAF50;
             color: white;
-            position: relative;
-        }
-        footer .social-icons img {
-            width: 30px;
-            margin: 0 10px;
-            cursor: pointer;
-        }
-        table {
+            position: fixed;
+            bottom: 0;
             width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
         }
-        table th, table td {
-            border: 1px solid #ddd;
-            padding: 8px;
-            text-align: center;
+        .image-row {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
         }
-        table th {
-            background-color: #4a90e2;
-            color: white;
-        }
-        button {
-            background-color: #2575fc;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #6a11cb;
+        .image-row img {
+            max-width: 30%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="university-logo.png" alt="University Logo">
-        <h1>Welcome to the University Admission Portal</h1>
-        <p>Your guide to transparent admissions, fee management, and application updates.</p>
+        <h1>University Admission Application</h1>
+        <p>Welcome to the automated admission portal. Apply now for your future!</p>
     </header>
 
+    <div class="image-row">
+        <img src="https://via.placeholder.com/300x200" alt="University Building">
+        <img src="https://via.placeholder.com/300x200" alt="Graduation Ceremony">
+        <img src="https://via.placeholder.com/300x200" alt="Student Life">
+    </div>
+
     <div class="container">
-        <section id="admission-process">
-            <h2>Admission Process</h2>
-            <p>Follow these steps to apply for admission:</p>
-            <ol>
-                <li><strong>Step 1:</strong> Fill out the online application form.</li>
-                <li><strong>Step 2:</strong> Upload required documents (ID, certificates, etc.).</li>
-                <li><strong>Step 3:</strong> Pay the application fee.</li>
-                <li><strong>Step 4:</strong> Wait for application review and status update.</li>
-                <li><strong>Step 5:</strong> Receive admission decision and instructions.</li>
-            </ol>
-        </section>
+        <form id="admissionForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
 
-        <section id="fee-structure">
-            <h2>Fee Structure</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Course</th>
-                        <th>Tuition Fee (per year)</th>
-                        <th>Other Fees</th>
-                        <th>Total Fee</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Computer Science</td>
-                        <td>₹8,30,000</td>
-                        <td>₹41,500</td>
-                        <td>₹8,71,500</td>
-                    </tr>
-                    <tr>
-                        <td>Business Administration</td>
-                        <td>₹7,47,000</td>
-                        <td>₹41,500</td>
-                        <td>₹7,88,500</td>
-                    </tr>
-                    <tr>
-                        <td>Medicine</td>
-                        <td>₹12,45,000</td>
-                        <td>₹41,500</td>
-                        <td>₹12,86,500</td>
-                    </tr>
-                    <tr>
-                        <td>Law</td>
-                        <td>₹6,64,000</td>
-                        <td>₹41,500</td>
-                        <td>₹7,05,500</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-        <section id="status-updates">
+            <label for="course">Course Applying For:</label>
+            <select id="course" name="course" required>
+                <option value="computer-science">Computer Science</option>
+                <option value="business-administration">Business Administration</option>
+                <option value="medicine">Medicine</option>
+                <option value="law">Law</option>
+            </select>
+
+            <label for="documents">Upload Documents (PDF, JPG, PNG):</label>
+            <input type="file" id="documents" name="documents" accept=".pdf,.jpg,.png" required>
+
+            <button type="submit">Submit Application</button>
+        </form>
+
+        <div id="statusMessage" class="hidden">
             <h2>Application Status</h2>
-            <form>
-                <label for="applicant-id">Enter Your Application ID:</label>
-                <input type="text" id="applicant-id" name="applicant-id" required>
-                <button type="submit">Check Status</button>
-            </form>
-            <div id="status-message" class="hidden">
-                <p>Status: <strong id="status">Pending</strong></p>
-                <p>Next Step: <span id="next-step">Awaiting review</span></p>
-            </div>
-        </section>
+            <p>Your application has been <strong>submitted successfully</strong>.</p>
+            <p>Status: <span id="status">Pending</span></p>
+        </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 University Admission Portal. All Rights Reserved.</p>
-        <div class="social-icons">
             <img src="facebook-icon.png" alt="Facebook">
             <img src="instagram-icon.png" alt="Instagram">
             <img src="twitter-icon.png" alt="Twitter">
             <img src="whatsapp-icon.png" alt="WhatsApp">
-        </div>
+        <p>&copy; 2025 University Admission Portal</p>
     </footer>
+
+    <script>
+        document.getElementById('admissionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('statusMessage').classList.remove('hidden');
+            document.getElementById('status').textContent = "Pending";
+            alert("Your application has been submitted! You will receive a response soon.");
+            document.getElementById('admissionForm').reset();
+        });
+    </script>
 </body>
 </html>
