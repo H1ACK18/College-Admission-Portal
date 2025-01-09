@@ -63,7 +63,6 @@
         });
     </script>
 </body>
-</html> <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -82,7 +81,7 @@
             <label for="studentId">Student ID:</label>
             <input type="text" id="studentId" name="studentId" required><br><br>
 
-            <label for="feeAmount">Fee Amount (in $):</label>
+            <label for="feeAmount">Fee Amount (₹):</label>
             <input type="number" id="feeAmount" name="feeAmount" required><br><br>
 
             <label for="paymentMethod">Payment Method:</label>
@@ -99,13 +98,11 @@
         <div id="receiptSection" class="hidden">
             <h2>Payment Receipt</h2>
             <p><strong>Student ID:</strong> <span id="receiptStudentId"></span></p>
-            <p><strong>Fee Amount:</strong> $<span id="receiptAmount"></span></p>
+            <p><strong>Fee Amount:</strong> ₹<span id="receiptAmount"></span></p>
             <p><strong>Payment Method:</strong> <span id="receiptPaymentMethod"></span></p>
             <p><strong>Status:</strong> <span id="paymentStatus">Paid</span></p>
             <button id="downloadReceipt">Download Receipt</button>
         </div>
-    </div>
-
     <footer>
         <p>&copy; 2025 Fee Payment Portal</p>
     </footer>
@@ -142,7 +139,6 @@
         });
     </script>
 </body>
-</html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -251,7 +247,6 @@
         });
     </script>
 </body>
-</html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -316,13 +311,13 @@
                         <td>Paid</td>
                     </tr>
                     <tr>
-                        <td>2025-01-06</td>
+                        <td>2025-01-12</td>
                         <td>Late Fee</td>
-                        <td>₹5.00</td>
+                        <td>₹500.00</td>
                         <td>Paid</td>
                     </tr>
                     <tr>
-                        <td>2025-01-07</td>
+                        <td>2025-01-15</td>
                         <td>ATKT Form</td>
                         <td>₹1500.00</td>
                         <td>Pending</td>
