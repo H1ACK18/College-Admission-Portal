@@ -1,4 +1,3 @@
-link rel="stylesheet" href="style1.css" type="text/css" media="all" />
 <script src=".js" type="text/javascript" charset="utf-8"></script>
 <html lang="en">
 <head>
@@ -282,9 +281,10 @@ link rel="stylesheet" href="style1.css" type="text/css" media="all" />
             <button class="action-btn">Request Transcript</button>
         </section>
 
-        <!--Section: Practical Status -->
-        <section id="Practical Status">
+    <div class="container">
+        <form id="Practical form">
             <h2>Practical Status</h2>
+            <form id="Practical Status">
             <label for="studentId">Student ID:</label>
             <input type="text" id="studentId" name="studentId" required><br><br>
 
@@ -299,16 +299,25 @@ link rel="stylesheet" href="style1.css" type="text/css" media="all" />
             <input type="text" id="Rollno" name="Rollno" required><br><br>
 
             <label for="Department">Department:</label>
-            <input type="text" id="" name="Department" required><br><br>
+            <input type="text" id="Deparment" name="Department" required><br><br>
 
             <button class="action-btn">Submit</button>
             <button class="action-btn">Practical Submission Link</button>
+
             <label for="Practical Submission">Submit Practical:</label>
             <label for="Files">Upload Files (PDF, JPG, PNG):</label>
             <input type="file" id="Files" name="Files" accept=".pdf,.jpg,.png" required><br><br>
 
             <button type="submit">Submit Files</button>
-            <div id="statusMessage" class="hidden">
+            <div id="statusMessage" class="hidden">        <section id="status-updates">
+            <h2>Uploading Status</h2>
+            <p>Check the status of your Files:</p>
+            <form>
+                <label for="Student-id">Enter Your Student ID:</label>
+                <input type="text" id="student-id" name="student-id" required>
+                <button type="submit">Check Status</button>
+            </form>
+    </div>
                 <h2>Uploading Status</h2>
                 <p>Your Files has been <strong>Uploaded successfully</strong>.</p>
                 <p>Status: <span id="status">Read</span></p>
