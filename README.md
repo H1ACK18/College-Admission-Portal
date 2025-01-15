@@ -293,6 +293,9 @@
            <label for="Password">Password:</label>
             <input type="text" id="Password" name="Password" required><br><br>
 
+            <button type="LogIn">Login</button>
+
+            
             <h2>Attendence</h2>
             <label for="Name">Student Name:</label>
             <input type="text" id="name" name="studentname" required><br><br>
@@ -304,7 +307,7 @@
             <input type="text" id="Deparment" name="Department" required><br><br>
 
             <button class="action-btn">Submit</button>
-            <button class="action-btn">Practical Submission Link</button>
+            <button class="action-btn">Practical Submission Link</button><br><br>
 
             <label for="Practical Submission">Submit Practical:</label>
             <label for="Files">Upload Files (PDF, JPG, PNG):</label>
