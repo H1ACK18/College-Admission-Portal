@@ -1,4 +1,3 @@
-link rel="stylesheet" href="style1.css" type="text/css" media="all" />
 <script src=".js" type="text/javascript" charset="utf-8"></script>
 <html lang="en">
 <head>
@@ -284,17 +283,28 @@ link rel="stylesheet" href="style1.css" type="text/css" media="all" />
 
         <!--Section: Practical Status -->
         <section id="Practical Status">
-            <label for="LOGIN ID">LOGIN ID:</label>
-            <label for="Password">Password:</label>
+            <h2>Practical Status</h2>
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required><br><br>
+
+           <label for="Password">Password:</label>
+            <input type="text" id="Password" name="Password" required><br><br>
+
             <h2>Attendence</h2>
-            <label for="Name">Name:</label>
-            <label for="Roll no">Roll no:</label>
+            <label for="Name">Student Name:</label>
+            <input type="text" id="name" name="studentname" required><br><br>
+
+            <label for="Rollno">Roll No:</label>
+            <input type="text" id="Rollno" name="Rollno" required><br><br>
+
             <label for="Department">Department:</label>
+            <input type="text" id="" name="Department" required><br><br>
+
             <button class="action-btn">Submit</button>
             <button class="action-btn">Practical Submission Link</button>
             <label for="Practical Submission">Submit Practical:</label>
-            <label for=" Upload Files">Upload Files (PDF, JPG, PNG):</label>
-            <input type="files" id="Files" name="Files" accept=".pdf,.jpg,.png" required><br><br>
+            <label for="Files">Upload Files (PDF, JPG, PNG):</label>
+            <input type="file" id="Files" name="Files" accept=".pdf,.jpg,.png" required><br><br>
 
             <button type="submit">Submit Files</button>
             <div id="statusMessage" class="hidden">
@@ -370,3 +380,4 @@ link rel="stylesheet" href="style1.css" type="text/css" media="all" />
     </script>
 </body>
 </html>
+
