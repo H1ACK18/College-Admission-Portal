@@ -122,8 +122,6 @@
             // Display receipt section
             document.getElementById('receiptStudentId').textContent = studentId;
             document.getElementById('receiptAmount').textContent = feeAmount;
-            document.getElementById('receiptPaymentMethod').textContent = paymentMethod;
-
             document.getElementById('paymentForm').reset(); // Reset the form
 
             // Show the receipt section and status message
