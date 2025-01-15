@@ -91,7 +91,6 @@
             </select><br><br>
 
             <button type="submit">Make Payment</button>
-        </form>
 
         <!-- Receipt Section (Hidden by default) -->
         <div class="container">
@@ -110,9 +109,6 @@
                 <option value="paypal">PayPal</option>
                 <option value="bank-transfer">Bank Transfer</option>
             </select><br><br>
-
-            <button type="submit">Make Payment</button>
-        </form>
 
             <button id="downloadReceipt">Download Receipt</button>
         </div>
@@ -402,5 +398,3 @@
             alert('Funds added successfully!');
         }
     </script>
-</body>
-</html>
