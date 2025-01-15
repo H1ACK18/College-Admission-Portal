@@ -74,8 +74,9 @@
         <p>Enter the fee details and make your payment. A receipt will be generated after the payment.</p>
     </header>
 
-    <div class="container">
-        <form id="paymentForm">
+    <form id="paymentForm">
+        <div class="container">
+
             <label for="studentId">Student ID:</label>
             <input type="text" id="studentId" name="studentId" required><br><br>
 
@@ -95,11 +96,24 @@
         <!-- Receipt Section (Hidden by default) -->
         <div class="container">
      <div id="receiptSection" class="hidden">
+     
             <h2>Payment Receipt</h2>
-            <p><strong>Student ID:</strong> <span id="receiptStudentId"></span></p>
-            <p><strong>Fee Amount:</strong> ₹<span id="receiptAmount"></span></p>
-            <p><strong>Payment Method:</strong> <span id="receiptPaymentMethod"></span></p>
-            <p><strong>Status:</strong> <span id="paymentStatus">Paid</span></p>
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required><br><br>
+
+            <label for="feeAmount">Fee Amount (₹):</label>
+            <input type="number" id="feeAmount" name="feeAmount" required><br><br>
+
+            <label for="paymentMethod">Payment Method:</label>
+            <select id="paymentMethod" name="paymentMethod" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank-transfer">Bank Transfer</option>
+            </select><br><br>
+
+            <button type="submit">Make Payment</button>
+        </form>
+
             <button id="downloadReceipt">Download Receipt</button>
         </div>
     <footer>
