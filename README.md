@@ -1,4 +1,3 @@
-<script src=".js" type="text/javascript" charset="utf-8"></script>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -283,12 +282,13 @@
 
         <!--Section: Practical Status -->
         <section id="Practical Status">
+        
             <h2>Practical Status</h2>
             <label for="studentId">Student ID:</label>
             <input type="text" id="studentId" name="studentId" required><br><br>
 
            <label for="Password">Password:</label>
-            <input type="text" id="Password" name="Password" required><br><br>
+           <input type="text" id="Password" name="Password" required><br><br>
 
             <h2>Attendence</h2>
             <label for="Name">Student Name:</label>
