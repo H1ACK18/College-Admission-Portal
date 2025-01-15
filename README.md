@@ -103,13 +103,6 @@
             <label for="feeAmount">Fee Amount (₹):</label>
             <input type="number" id="feeAmount" name="feeAmount" required><br><br>
 
-            <label for="paymentMethod">Payment Method:</label>
-            <select id="paymentMethod" name="paymentMethod" required>
-                <option value="credit-card">Credit Card</option>
-                <option value="paypal">PayPal</option>
-                <option value="bank-transfer">Bank Transfer</option>
-            </select><br><br>
-
             <button id="downloadReceipt">Download Receipt</button>
         </div>
     <footer>
