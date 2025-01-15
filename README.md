@@ -93,6 +93,7 @@
         </form>
 
         <!-- Receipt Section (Hidden by default) -->
+        <div class="container">
      <div id="receiptSection" class="hidden">
             <h2>Payment Receipt</h2>
             <p><strong>Student ID:</strong> <span id="receiptStudentId"></span></p>
@@ -317,14 +318,13 @@
                 <input type="text" id="student-id" name="student-id" required>
                 <button type="submit">Check Status</button>
             </form>
-    </div>
+
                 <h2>Uploading Status</h2>
                 <p>Your Files has been <strong>Uploaded successfully</strong>.</p>
                 <p>Status: <span id="status">Read</span></p>
                 <p>Your Files has been <strong> Approved</strong>.</p>
 
 
-            </div>  
 
 
         </section>
