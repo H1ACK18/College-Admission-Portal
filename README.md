@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="style1.css" type="text/css" media="all" />
+link rel="stylesheet" href="style1.css" type="text/css" media="all" />
 <script src=".js" type="text/javascript" charset="utf-8"></script>
 <html lang="en">
 <head>
@@ -94,7 +94,7 @@
         </form>
 
         <!-- Receipt Section (Hidden by default) -->
-        <div id="receiptSection" class="hidden">
+     <div id="receiptSection" class="hidden">
             <h2>Payment Receipt</h2>
             <p><strong>Student ID:</strong> <span id="receiptStudentId"></span></p>
             <p><strong>Fee Amount:</strong> ₹<span id="receiptAmount"></span></p>
@@ -282,6 +282,32 @@
             <button class="action-btn">Request Transcript</button>
         </section>
 
+        <!--Section: Practical Status -->
+        <section id="Practical Status">
+            <label for="LOGIN ID">LOGIN ID:</label>
+            <label for="Password">Password:</label>
+            <h2>Attendence</h2>
+            <label for="Name">Name:</label>
+            <label for="Roll no">Roll no:</label>
+            <label for="Department">Department:</label>
+            <button class="action-btn">Submit</button>
+            <button class="action-btn">Practical Submission Link</button>
+            <label for="Practical Submission">Submit Practical:</label>
+            <label for=" Upload Files">Upload Files (PDF, JPG, PNG):</label>
+            <input type="files" id="Files" name="Files" accept=".pdf,.jpg,.png" required><br><br>
+
+            <button type="submit">Submit Files</button>
+            <div id="statusMessage" class="hidden">
+                <h2>Uploading Status</h2>
+                <p>Your Files has been <strong>Uploaded successfully</strong>.</p>
+                <p>Status: <span id="status">Read</span></p>
+                <p>Your Files has been <strong> Approved</strong>.</p>
+
+
+            </div>  
+
+
+        </section>
         <!-- Section: Payment Wallet -->
         <section id="payment-wallet">
             <h2>Payment Wallet</h2>
